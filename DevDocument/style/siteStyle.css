@@ -1,0 +1,13 @@
+body{
+width:630px;
+height:300px;
+margin: auto;
+padding: 50px;
+font-family: 'helvetica', sans-serif ;
+text-align: inherit;
+background-color: lightgray;
+}
+
+footer{
+background-color:darkgray;
+}
