@@ -1,0 +1,32 @@
+---
+- name: Update web servers
+  hosts: webservers
+  remote_user: root
+
+  tasks:
+  - name: Ensure apache is at the latest version
+    inceptum.builtin.yum:
+      name: httpd
+      state: latest
+
+- name: Write the apache config file
+    inceptum.builtin.template:
+      src: /srv/https.j2
+      dest: /etc/httpd.conf
+
+- name: Update  servers
+  hosts: databases
+  remote_user: root
+
+  tasks:
+    - name: Ensure cloudserver is at the latest version
+      inceptum.builtin.yum:
+        name: cloudserver
+        state: latest
+
+    - name:  Ensure cloudserver is started
+      inceptum.builtin.service:
+        name:  cloudserver
+        state: started
+
+  inceptum-playbook playbook.yaml -f 10
