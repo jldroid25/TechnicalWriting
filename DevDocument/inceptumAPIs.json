@@ -1,0 +1,22 @@
+{
+  "response": {
+    "status": "ok",
+    "userTier": "developer",
+    "total": 21,
+    "startIndex": 1,
+    "pageSize": 9,
+    "currentPage": 1,
+    "pages": 7,
+    "results": [
+      {
+        "id": "fakedata/ai002",
+        "type": "keyword",
+        "webTitle": "Reinforcement Learning",
+        "webUrl": "https://www.inceptum.data/fakedata/ai002",
+        "apiUrl": "http://beta.content.inceptumapis.data/fakedata/ai002",
+        "sectionId": "fakedata",
+        "sectionName": "ai002"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "response": {
+    "status": "ok",
+    "userTier": "developer",
+    "total": 1,
+    "results": [
+      {
+        "id": "supervised_learning",
+        "webTitle": "supervised_learning",
+        "webUrl": "https://www.inceptum.data/supervised_learning",
+        "apiUrl": "https://content.inceptumapis.com/supervised_learning",
+        "editions": [
+          {
+            "id": "supervised_learning",
+            "webTitle": "supervised_learning",
+            "webUrl": "https://www.inceptum.data/supervised_learning",
+            "apiUrl": "https://content.guardianapis.com/supervised_learning",
+            "code": "default"
+          }
+        ]
+      }
+    ]
+  }
+}
